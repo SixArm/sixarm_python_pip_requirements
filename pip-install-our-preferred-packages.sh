@@ -1,15 +1,11 @@
-pip install altgraph
-pip install bdist-mpkg
+pip install altgraph     # Graph (network) package
+pip install bdist-mpkg   # Create virtualenv built distributions
 pip install bonjour-py
-pip install cffi
-pip install cryptography
-pip install cycler
-pip install enum34
+pip install cycler       # Composable style cycles
 pip install funcsigs
 pip install idna
-pip install ipaddress
-pip install macholib
-pip install matplotlib
+pip install ipaddress    # IPv4/IPv6 manipulation library
+pip install macholib     # Mach-O header analysis and editing
 pip install mock
 pip install modulegraph
 pip install ndg-httpsclient
@@ -21,6 +17,63 @@ pip install pip
 pip install py2app
 pip install pyasn1
 pip install pycparser
+pip install pyOpenSSL
+pip install pyparsing
+pip install python-dateutil
+pip install pytz
+pip install scipy
+pip install setuptools
+pip install six
+pip install Twisted
+pip install vboxapi
+pip install xattr
+pip install zope.interface
+
+## Language
+
+pip install cffi         # C-code Foreign Function Interface
+pip install cryptography # Cryptography recipes and primitives
+pip install enum34       # Python 3.4 Enum backported
+
+## Jobs
+
+pip install joblib        # Job library for caching, parallelizing, persistence
+
+## Command Line Interface
+
+pip install tqdm          # Display progress bars for loops in code (prefer vs. progressbar2)
+pip install progressbar2  # Progress bar (prefer tqdm)
+pip install click         # Create command line interfaces in a composable way
+pip install pudb          # Python debugger (prefer vs. pdb)
+
+## Serialization
+
+pip install dill          # A better "pickle" to serialize objects to disk
+pip install marshmallow   # Simplified object serialization
+
+## Data
+
+pip install tinydb        # Pure Python NoSQL database
+pip install schema        # Simple data validation library (prefer vs. voluptuous)
+pip install voluptuous    # Data validation library (prefer schema)
+pip install construct     # Declarative parser (and builder) for binary data
+pip install schematics    # Data structures and transformations
+pip install pandas        # Data analysis, time series, and statistics
+pip install sqlalchemy    # SQL database abstraction library
+pip install matplotlib   # Math plotting library
+
+## Geo
+
+pip install folium        # Visualize geographic data
+pip install geopandas     # Geographic pandas extensions
+
+## Scraping
+
+pip install pomp          # Web scraping (prefer vs. scrapy)
+pip install scrapy        # Web scraping (prefer pomp)
+
+## pybojc
+
 pip install pyobjc-core
 pip install pyobjc-framework-Accounts
 pip install pyobjc-framework-AddressBook
@@ -56,14 +109,3 @@ pip install pyobjc-framework-Social
 pip install pyobjc-framework-SyncServices
 pip install pyobjc-framework-SystemConfiguration
 pip install pyobjc-framework-WebKit
-pip install pyOpenSSL
-pip install pyparsing
-pip install python-dateutil
-pip install pytz
-pip install scipy
-pip install setuptools
-pip install six
-pip install Twisted
-pip install vboxapi
-pip install xattr
-pip install zope.interface
