@@ -41,6 +41,7 @@ pip install joblib        # Job library for caching, parallelizing, persistence
 
 ## Command Line Interface
 
+pip install aws-shell     # Amazon Web Services (AWS) shell for interactive commands
 pip install tqdm          # Display progress bars for loops in code (prefer vs. progressbar2)
 pip install progressbar2  # Progress bar (prefer tqdm)
 pip install click         # Create command line interfaces in a composable way
