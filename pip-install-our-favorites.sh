@@ -43,6 +43,7 @@ pip install -U joblib        # Job library for caching, parallelizing, persisten
 
 pip install -U awscli        # Amazon Web Services (AWS) command line interface
 pip install -U aws-shell     # Amazon Web Services (AWS) shell for interactive commands
+pip install -U aws-shell --upgrade --ignore-installed six  # Temporary workaround
 pip install -U tqdm          # Display progress bars for loops in code (prefer vs. progressbar2)
 pip install -U progressbar2  # Progress bar (prefer tqdm)
 pip install -U click         # Create command line interfaces in a composable way
