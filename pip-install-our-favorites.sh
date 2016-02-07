@@ -3,6 +3,7 @@ pip install -U bdist-mpkg   # Create virtualenv built distributions
 pip install -U bonjour-py
 pip install -U cycler       # Composable style cycles
 pip install -U funcsigs
+pip install -U dataset      # Easy-to-use data handling for SQL data stores
 pip install -U idna
 pip install -U ipaddress    # IPv4/IPv6 manipulation library
 pip install -U macholib     # Mach-O header analysis and editing
