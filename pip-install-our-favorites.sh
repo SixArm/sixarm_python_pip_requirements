@@ -27,6 +27,7 @@ pip install -U setuptools
 pip install -U six
 pip install -U Twisted
 pip install -U vboxapi
+pip install -U virtualenv
 pip install -U xattr
 pip install -U zope.interface
 
