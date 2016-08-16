@@ -4,6 +4,7 @@ pip install -U bonjour-py
 pip install -U cycler       # Composable style cycles
 pip install -U funcsigs
 pip install -U dataset      # Easy-to-use data handling for SQL data stores
+pip install -U hg-git       # Mercurial-to-git bridge for version control
 pip install -U idna
 pip install -U ipaddress    # IPv4/IPv6 manipulation library
 pip install -U macholib     # Mach-O header analysis and editing
@@ -16,6 +17,7 @@ pip install -U numpy
 pip install -U passlib
 pip install -U pbr
 pip install -U pip
+pip install -U pelican      # Pelican static site generator
 pip install -U py2app
 pip install -U pyasn1
 pip install -U pycparser
