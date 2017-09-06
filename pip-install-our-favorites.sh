@@ -118,4 +118,8 @@ pip install -U pyobjc-framework-SyncServices
 pip install -U pyobjc-framework-SystemConfiguration
 pip install -U pyobjc-framework-WebKit
 
+## Clouds
+
+pip install -U --pre azure
+
 ##
