@@ -68,7 +68,8 @@ pip install -U construct     # Declarative parser (and builder) for binary data
 pip install -U schematics    # Data structures and transformations
 pip install -U pandas        # Data analysis, time series, and statistics
 pip install -U sqlalchemy    # SQL database abstraction library
-pip install -U matplotlib   # Math plotting library
+pip install -U matplotlib    # Math plotting library
+pip install -U visidata      # Rapidly explore columnar data in the terminal
 
 ## Geo
 
