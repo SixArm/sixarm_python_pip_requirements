@@ -80,6 +80,7 @@ pip install -U geopandas     # Geographic pandas extensions
 
 pip install -U pomp          # Web scraping (prefer vs. scrapy)
 pip install -U scrapy        # Web scraping (prefer pomp)
+pip install -U requests_html # Web scraping as simple and intuitive as possible
 
 ## pybojc
 
