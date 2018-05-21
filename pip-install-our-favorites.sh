@@ -59,6 +59,15 @@ pip install -U pudb          # Python debugger (prefer vs. pdb)
 pip install -U dill          # A better "pickle" to serialize objects to disk
 pip install -U marshmallow   # Simplified object serialization
 
+## HTTP parsing & web scraping
+
+pip install -U lxml          # Parsing (prefer this when you need speed)
+pip install -U beautifulsoup # Designed for convenient screen-scraping and messy parsing
+pip install -U requests
+pip install -U pomp          # Web scraping (prefer vs. scrapy)
+pip install -U scrapy        # Web scraping (prefer pomp)
+pip install -U requests_html # Web scraping as simple and intuitive as possible
+
 ## Data
 
 pip install -U tinydb        # Pure Python NoSQL database
@@ -75,12 +84,6 @@ pip install -U visidata      # Rapidly explore columnar data in the terminal
 
 pip install -U folium        # Visualize geographic data
 pip install -U geopandas     # Geographic pandas extensions
-
-## Scraping
-
-pip install -U pomp          # Web scraping (prefer vs. scrapy)
-pip install -U scrapy        # Web scraping (prefer pomp)
-pip install -U requests_html # Web scraping as simple and intuitive as possible
 
 ## pybojc
 
