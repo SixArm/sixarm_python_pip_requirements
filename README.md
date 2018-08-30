@@ -1,4 +1,7 @@
-# SixArm.com →<br>Python pip requirements
+SixArm.com → Python → <br>
+requirements.txt file for packages
+
+SixArm.com → Python → Pipfile for pipenv packages
 
 This is our team's Python pip requirements.txt file for our favorite packages for our typical computers.
 
