@@ -1,10 +1,10 @@
-# SixArm.com »<br>pip install packages that we like
+# SixArm.com →<br>pip requirements
 
-These are our team's favorite pip requirements for our typical computers.
+This is our team's pip requirements.txt file for our favorite python packages for our typical computers.
 
 Before we begin:
 
-  * Install Python
+  * Install [Python](https://en.wikipedia.org/wiki/Python_(programming_language))
   * Install [pip](https://en.wikipedia.org/wiki/Pip_(package_manager))
 
 To install the requirements:
