@@ -19,7 +19,7 @@ Python is an interpreted high-level programming language for general-purpose pro
 
 ## What is pip?
 
-pip is a package manager to install and manage software packages written in Python. ([wikipedia](https://en.wikipedia.org/wiki/Pip_(package_manager))
+pip is a package manager to install and manage software packages written in Python. ([wikipedia](https://en.wikipedia.org/wiki/Pip_(package_manager)))
 
 
 ## Thanks
