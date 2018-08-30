@@ -1,6 +1,6 @@
-# SixArm.com →<br>pip requirements
+# SixArm.com →<br>Python pip requirements
 
-This is our team's pip requirements.txt file for our favorite python packages for our typical computers.
+This is our team's Python pip requirements.txt file for our favorite packages for our typical computers.
 
 Before we begin:
 
@@ -30,7 +30,7 @@ pip is a package manager to install and manage software packages written in Pyth
 ## Tracking
 
 * Package: sixarm_pip_requirements
-* Version: 2.0.0
+* Version: 2.0.1
 * Created: 2015-12-22
 * Updated: 2018-08-30
 * License: GPL
