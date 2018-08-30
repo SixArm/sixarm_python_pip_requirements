@@ -1,92 +1,232 @@
+##
 # pip requirements file for our favorites
+##
 
-altgraph     # Graph (network) package
-bdist-mpkg   # Create virtualenv built distributions
+# Graph (network) package
+altgraph     
+
+# Create virtualenv built distributions
+bdist-mpkg   
+
 bonjour-py
-cycler       # Composable style cycles
+
+# Composable style cycles
+cycler       
+
 funcsigs
-dataset      # Easy-to-use data handling for SQL data stores
-hg-git       # Mercurial-to-git bridge for version control
+
+# Easy-to-use data handling for SQL data stores
+dataset      
+
+# Mercurial-to-git bridge for version control
+hg-git       
+
 idna
-ipaddress    # IPv4/IPv6 manipulation library
-macholib     # Mach-O header analysis and editing
-mercurial    # Mercurial version control
+
+# IPv4/IPv6 manipulation library
+ipaddress    
+
+# Mach-O header analysis and editing
+macholib     
+
+# Mercurial version control
+mercurial    
+
 mock
+
 modulegraph
+
 ndg-httpsclient
+
 nose
-numpy
+
 passlib
+
 pbr
+
 pip
-pelican      # Pelican static site generator
+
+# Pelican static site generator
+pelican      
+
 py2app
+
 pyasn1
+
 pycparser
+
 pyOpenSSL
+
 pyparsing
+
 python-dateutil
+
 pytz
-scipy
+
 setuptools
+
 six
-Twisted
+
 vboxapi
+
 virtualenv
+
 xattr
+
 zope.interface
 
-## Language
+##
+# Language
+##
 
-cffi         # C-code Foreign Function Interface
-cryptography # Cryptography recipes and primitives
-enum34       # Python 3.4 Enum backported
+# C-code Foreign Function Interface
+cffi         
 
-## Jobs
+# Cryptography recipes and primitives
+cryptography 
 
-joblib        # Job library for caching, parallelizing, persistence
+# Python 3.4 Enum backported
+enum34       
 
-## Command Line Interface
+##
+# Jobs
+##
 
-awscli        # Amazon Web Services (AWS) command line interface
-aws-shell     # Amazon Web Services (AWS) shell for interactive commands
-tqdm          # Display progress bars for loops in code (prefer vs. progressbar2)
-progressbar2  # Progress bar (prefer tqdm)
-click         # Create command line interfaces in a composable way
-pudb          # Python debugger (prefer vs. pdb)
+# Job library for caching, parallelizing, persistence
+joblib        
 
-## Serialization
+##
+# Command Line Interface
+##
 
-dill          # A better "pickle" to serialize objects to disk
-marshmallow   # Simplified object serialization
+# Amazon Web Services (AWS) command line interface
+awscli        
 
-## HTTP parsing & web scraping
+# Amazon Web Services (AWS) shell for interactive commands
+aws-shell     
 
-lxml          # Parsing (prefer this when you need speed)
-beautifulsoup # Designed for convenient screen-scraping and messy parsing
-requests
-pomp          # Web scraping (prefer vs. scrapy)
-scrapy        # Web scraping (prefer pomp)
-requests_html # Web scraping as simple and intuitive as possible
+# Display progress bars for loops in code (prefer vs. progressbar2)
+tqdm          
 
-## Data
+# Progress bar (prefer tqdm)
+progressbar2  
 
-tinydb        # Pure Python NoSQL database
-schema        # Simple data validation library (prefer vs. voluptuous)
-voluptuous    # Data validation library (prefer schema)
-construct     # Declarative parser (and builder) for binary data
-schematics    # Data structures and transformations
-pandas        # Data analysis, time series, and statistics
-sqlalchemy    # SQL database abstraction library
-matplotlib    # Math plotting library
-visidata      # Rapidly explore columnar data in the terminal
+# Create command line interfaces in a composable way
+click         
 
-## Geo
+# Python debugger (prefer vs. pdb)
+pudb          
 
-folium        # Visualize geographic data
-geopandas     # Geographic pandas extensions
+##
+# GUI
+##
 
-## pybojc
+# wxPython: cross-platform GUI toolkit (https://wxpython.org/)
+wxPython
+
+##
+# Serialization
+##
+
+# A better "pickle" to serialize objects to disk
+dill          
+
+# Simplified object serialization
+marshmallow   
+
+##
+# Networking
+##
+
+# Twisted: event-driven networking engine (https://twistedmatrix.com/)
+Twisted
+
+##
+# HTTP parsing & web scraping
+##
+
+# Parsing (prefer this when you need speed)
+lxml          
+
+# Designed for convenient screen-scraping and messy parsing
+beautifulsoup 
+
+# Requests: HTTP for Humans (http://www.python-requests.org/)
+requests      
+
+# Web scraping (prefer vs. scrapy)
+pomp          
+
+# Scrapy: scrape and extract data from websites (https://scrapy.org/) (prefer pomp)
+scrapy        
+
+# Web scraping as simple and intuitive as possible
+requests_html 
+
+##
+# Images
+##
+
+# Pillow: the friendly fork of PIL, the Python Imaging Library (https://python-pillow.org/)
+pillow
+
+##
+# Data
+##
+
+# NumPy: scientific computing with data structures
+numpy
+
+# SciPy: library of algorithms and mathematical tools
+scipy
+
+# Pure Python NoSQL database
+tinydb        
+
+# Simple data validation library (prefer vs. voluptuous)
+schema        
+
+# Data validation library (prefer schema)
+voluptuous    
+
+# Declarative parser (and builder) for binary data
+construct     
+
+# Data structures and transformations
+schematics    
+
+# Data analysis, time series, and statistics
+pandas        
+
+# SQL database abstraction library
+sqlalchemy    
+
+# Math plotting library
+matplotlib    
+
+# Rapidly explore columnar data in the terminal
+visidata      
+
+##
+# Geo
+##
+
+# Visualize geographic data
+folium        
+
+# Geographic pandas extensions
+geopandas     
+
+##
+# Fun
+##
+
+# PyGame: video game libraries for graphics and sound  (https://www.pygame.org/)
+pygame
+
+##
+# pybojc
+##
 
 pyobjc-core
 pyobjc-framework-Accounts
