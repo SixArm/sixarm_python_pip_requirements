@@ -216,3 +216,10 @@ folium
 
 # Geographic pandas extensions
 geopandas     
+
+##
+# API
+##
+
+# GitHub API
+pygithub
